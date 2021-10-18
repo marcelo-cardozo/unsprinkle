@@ -20,9 +20,11 @@ const Hero = () => {
             /images/hero-img@3x.jpg 3x
             "/>
         <source/>
-        <HeroImage src="/images/hero-img.jpg" />
+        <HeroImage
+          src="/images/hero-img.jpg"
+          alt='Example photo of the page, a cat with blue eyes staring directly to the camera in a dark background' />
       </picture>
-      <Swoop src="/swoop.svg" />
+      <Swoop src="/swoop.svg" alt='Example photo overlay' />
     </Wrapper>
   );
 };

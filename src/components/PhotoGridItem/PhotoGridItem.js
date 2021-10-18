@@ -13,7 +13,7 @@ const PhotoGridItem = ({ id, src, alt, tags }) => {
             type="image/jpeg"
             srcSet={['.jpg 1x','@2x.jpg 2x', '@3x.jpg 3x'].map(option => src.replace('.jpg', option)).join(', \n')}/>
           <source/>
-          <Image src={src} />
+          <Image src={src} alt={alt} />
         </picture>
       </Anchor>
       <Tags>
